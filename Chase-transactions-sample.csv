@@ -1,0 +1,359 @@
+type,amount,runningBalance,date,description,category,counterParty,counterPartyType,accountExternalId,accountType,ledgerAccount,location,tag
+adjustment,117.17,85443.12,11/29/2023 0:00,Hilton Hotel Miami,accommodation,HILTON HOTELS,organization,chase_checking_1234,deposit,income,Miami,null
+ach,30.22,85424.9,12/4/2023 0:00,Monthtly Rental,accommodation,JOHN SMITH,personal,chase_checking_1234,deposit,income,San Francisco,null
+bill_payment,-18.8,83153.75,1/6/2024 0:00,Marriot Rewards,accommodation,MERRIOTT,organization,chase_checking_1234,deposit,expense,Online,wants
+bill_payment,-92.93,82626.92,1/14/2024 0:00,Marriot Rewards,accommodation,MERRIOTT,organization,chase_checking_1234,deposit,expense,Online,wants
+ach,97.1,81663.24,2/6/2024 0:00,Monthtly Rental,accommodation,JOHN SMITH,personal,chase_checking_1234,deposit,income,San Francisco,null
+ach,91.13,81754.37,2/6/2024 0:00,Monthtly Rental,accommodation,JOHN SMITH,personal,chase_checking_1234,deposit,income,San Francisco,null
+card_payment,-57.51,85620.82,11/27/2023 0:00,Chipotle Mexican Grill,dining,CHIPOTLE MEXICAN GRILL,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-91.86,84671.05,12/18/2023 0:00,Chick-Fil-A,dining,CHICK-FIL-A,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-58.65,83983.8,12/26/2023 0:00,Slim Chickens,dining,SLIM CHICKENS,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-78.98,83448.43,1/2/2024 0:00,KFC,dining,KFC,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-40.74,81837.52,1/27/2024 0:00,Starbucks,dining,STARBUCKS,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-7.14,81346.04,2/12/2024 0:00,Pizza Hut,dining,PIZZA HUT,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-74.68,83758.15,12/30/2023 0:00,Apple,electronics,APPLE,organization,chase_checking_1234,deposit,expense,Online,wants
+payment,-115.67,85678.33,11/27/2023 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_1234,deposit,expense,Online,needs
+deposit,43.64,85325.95,11/29/2023 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+deposit,98.31,85375.68,12/1/2023 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+wire,-40.22,85248.77,12/2/2023 0:00,Domestic Wire,general,JAMES ARDEN,personal,chase_checking_1234,deposit,expense,San Francisco,goals
+transfer,-86.69,85288.99,12/2/2023 0:00,Recurring Transfer to Savings,general,YOURSELF,personal,chase_checking_1234,deposit,expense,San Francisco,transfer
+deposit,116.69,85365.46,12/2/2023 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+deposit,66.45,85431.91,12/3/2023 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+payment,-11.41,85394.68,12/4/2023 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_1234,deposit,expense,Online,needs
+payment,-36.04,85276.3,12/9/2023 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_1234,deposit,expense,Online,needs
+payment,-88.49,85187.81,12/11/2023 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_1234,deposit,expense,Online,needs
+fee,-61.17,84953.25,12/13/2023 0:00,International Transaction Fee,general,BIG BANK,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+wire,-17.79,84732.33,12/17/2023 0:00,International Wire Transfer,general,JOSE SALAS,personal,chase_checking_1234,deposit,expense,San Francisco,goals
+deposit,47.82,84780.15,12/17/2023 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+deposit,15.28,84795.43,12/17/2023 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+fee,-32.52,84762.91,12/18/2023 0:00,Insufficient Funds Fee,general,BANK OF ALL,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+payment,-43.75,83823.37,12/27/2023 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_1234,deposit,expense,Online,needs
+deposit,103,83955.16,12/28/2023 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+transfer,-86.78,83588.76,12/31/2023 0:00,Recurring Transfer to Savings,general,YOURSELF,personal,chase_checking_1234,deposit,expense,San Francisco,transfer
+deposit,48.67,83281.19,1/3/2024 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+deposit,26.67,83261.85,1/5/2024 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+check,49.15,83051.02,1/10/2024 0:00,Online Check Deposit,general,BANK OF MANY,organization,chase_checking_1234,deposit,income,San Francisco,null
+deposit,49.16,83065.76,1/11/2024 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+check,107.65,82681.08,1/16/2024 0:00,Online Check Deposit,general,BANK OF MANY,organization,chase_checking_1234,deposit,income,San Francisco,null
+wire,-112.55,81956.53,1/25/2024 0:00,International Wire Transfer,general,JOSE SALAS,personal,chase_checking_1234,deposit,expense,San Francisco,goals
+fee,-22.25,81711.29,1/31/2024 0:00,International Transaction Fee,general,BIG BANK,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+deposit,78.61,81566.14,2/4/2024 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+payment,-50.24,81704.13,2/7/2024 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_1234,deposit,expense,Online,needs
+wire,-96.5,81461.62,2/11/2024 0:00,Domestic Wire,general,JAMES ARDEN,personal,chase_checking_1234,deposit,expense,San Francisco,goals
+payment,-108.44,81353.18,2/12/2024 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_1234,deposit,expense,Online,needs
+payment,-15.08,81330.96,2/13/2024 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_1234,deposit,expense,Online,needs
+card_payment,-37.04,85378.47,12/5/2023 0:00,Aldi,groceries,ALDI,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+card_payment,-44.46,85045.45,12/11/2023 0:00,Walmart,groceries,WALMART,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+card_payment,-17.32,83048.44,1/11/2024 0:00,Costco,groceries,COSTCO,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+card_payment,-117.71,84253.16,12/23/2023 0:00,CVS,health,CVS,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+card_payment,-57.79,81898.74,1/26/2024 0:00,CVS,health,CVS,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+card_payment,-18.96,81057.42,2/16/2024 0:00,CVS,health,CVS,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+adjustment,83.89,81795.18,2/1/2024 0:00,Refund,home,THE HOME DEPOT,organization,chase_checking_1234,deposit,income,San Francisco,null
+card_payment,-26.51,80652.25,2/19/2024 0:00,The Home Depot,home,THE HOME DEPOT,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+card_payment,-49.86,84903.39,12/14/2023 0:00,Staples,office,STAPLES,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+card_payment,-61.35,83527.41,1/1/2024 0:00,Staples,office,STAPLES,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-75.12,85545.7,11/27/2023 0:00,Century Link,phone,CENTURYLINK,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-68.39,84602.66,12/18/2023 0:00,Century Link,phone,CENTURYLINK,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-52,84471.86,12/20/2023 0:00,Century Link,phone,CENTURYLINK,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-112.86,83105.76,1/9/2024 0:00,Century Link,phone,CENTURYLINK,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+card_payment,-7.92,82619,1/15/2024 0:00,Sprint PCS,phone,SPRINT PCS,organization,chase_checking_1234,deposit,expense,Online,needs
+card_payment,-43.53,82069.08,1/24/2024 0:00,Verizon Wireless,phone,VERIZON WIRELESS,organization,chase_checking_1234,deposit,expense,Online,needs
+card_payment,-32.68,80678.76,2/19/2024 0:00,T-Mobile,phone,T-MOBILE,organization,chase_checking_1234,deposit,expense,Online,needs
+card_payment,-115.57,80489.91,2/23/2024 0:00,Verizon Wireless,phone,VERIZON WIRELESS,organization,chase_checking_1234,deposit,expense,Online,needs
+card_payment,-115.57,80489.91,2/23/2024 0:00,Verizon Wireless,phone,VERIZON WIRELESS,organization,chase_checking_1234,deposit,expense,Online,needs
+charge,-30.97,0,2/24/2024 0:00,Service Charge,service,BANK OF EURASIA,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+withdrawal,-104.43,85282.31,11/28/2023 0:00,Electronic Withdrawal,service,BANK OF THE WEST,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+atm,-119.31,85311.53,11/30/2023 0:00,ATM Withdrawal,service,CARDTRONICS,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+withdrawal,-34.16,85277.37,12/1/2023 0:00,Electronic Withdrawal,service,BANK OF THE WEST,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+digital_payment,-25.82,85406.09,12/4/2023 0:00,Venmo Payment,service,LOUISE BENTLEY,personal,chase_checking_1234,deposit,expense,Online,needs
+digital_payment,-97.9,85089.91,12/11/2023 0:00,Venmo Payment,service,LOUISE BENTLEY,personal,chase_checking_1234,deposit,expense,Online,needs
+withdrawal,-31.03,85014.42,12/13/2023 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-78.8,84523.86,12/20/2023 0:00,Point of Sale - Monthly,service,SQUARE,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-57.68,84370.87,12/22/2023 0:00,Point of Sale - Monthly,service,SQUARE,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+withdrawal,-62.54,84190.62,12/23/2023 0:00,Electronic Withdrawal,service,BANK OF THE WEST,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+withdrawal,-105.1,84085.52,12/24/2023 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+atm,-10.5,83867.12,12/26/2023 0:00,External ATM Cash,service,ATM WORLDWIDE,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+bill_payment,-106.18,83877.62,12/26/2023 0:00,Toyota Financial Services,service,TOYOTA,organization,chase_checking_1234,deposit,expense,Online,goals
+bill_payment,-79.96,83743.41,12/28/2023 0:00,American Express Platinum Card,service,AMERICAN EXPRESS,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+atm,108.75,83852.16,12/28/2023 0:00,ATM Deposit,service,MAGNA BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+withdrawal,-9.7,83748.45,12/30/2023 0:00,Electronic Withdrawal,service,BANK OF THE WEST,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+atm,-72.91,83675.54,12/31/2023 0:00,External ATM Cash,service,ATM WORLDWIDE,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+withdrawal,-118.83,83232.52,1/3/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+digital_payment,-97.08,83351.35,1/3/2024 0:00,Venmo Payment,service,LOUISE BENTLEY,personal,chase_checking_1234,deposit,expense,Online,needs
+withdrawal,-46.01,83235.18,1/4/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+charge,-55.86,83205.99,1/6/2024 0:00,Service Charge,service,BANK OF EURASIA,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+withdrawal,-55,83098.75,1/7/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+interest,119.87,83218.62,1/8/2024 0:00,Interest Earned,service,WORLD BANK,organization,chase_checking_1234,deposit,income,San Francisco,null
+digital_payment,-37.2,82643.88,1/17/2024 0:00,Venmo Payment,service,LOUISE BENTLEY,personal,chase_checking_1234,deposit,expense,Online,needs
+charge,-94.98,82467.05,1/20/2024 0:00,Service Charge,service,BANK OF EURASIA,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+digital_payment,-43.87,82231.18,1/23/2024 0:00,Venmo Payment,service,LOUISE BENTLEY,personal,chase_checking_1234,deposit,expense,Online,needs
+bill_payment,-27.07,82275.05,1/23/2024 0:00,Toyota Financial Services,service,TOYOTA,organization,chase_checking_1234,deposit,expense,Online,goals
+atm,-44.3,82302.12,1/23/2024 0:00,ATM Withdrawal,service,CARDTRONICS,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+interest,-118.57,82112.61,1/24/2024 0:00,Interest Payment,service,AMERICAN EXPRESS,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+digital_payment,-117.71,81677.47,2/2/2024 0:00,Venmo Payment,service,LOUISE BENTLEY,personal,chase_checking_1234,deposit,expense,Online,needs
+interest,-82.53,81621.6,2/8/2024 0:00,Interest Payment,service,AMERICAN EXPRESS,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+charge,-63.48,81558.12,2/10/2024 0:00,Service Charge,service,BANK OF EURASIA,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+atm,-90,81227.72,2/13/2024 0:00,ATM Withdrawal,service,CARDTRONICS,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+digital_payment,-13.24,81317.72,2/13/2024 0:00,Venmo Payment,service,LOUISE BENTLEY,personal,chase_checking_1234,deposit,expense,Online,needs
+atm,-40.5,81187.22,2/14/2024 0:00,External ATM Cash,service,ATM WORLDWIDE,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+bill_payment,-51.26,80711.44,2/18/2024 0:00,American Express Platinum Card,service,AMERICAN EXPRESS,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+digital_payment,-12.28,85430.84,11/30/2023 0:00,PayPal Purchase,shopping,EBAY,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-9.39,85415.51,12/5/2023 0:00,J.C. Penney,shopping,J.C. PENNEY,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+digital_payment,-80.03,84780.78,12/15/2023 0:00,PayPal Purchase,shopping,EBAY,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-43.07,84042.45,12/25/2023 0:00,Gap,shopping,GAP,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-122.33,83832.83,12/29/2023 0:00,Kohl's,shopping,KOHL'S,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+digital_payment,-34.42,83016.6,1/10/2024 0:00,PayPal Purchase,shopping,EBAY,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+digital_payment,-57.54,82905.27,1/12/2024 0:00,PayPal Purchase,shopping,EBAY,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-62.88,82719.85,1/13/2024 0:00,Foot Locker,shopping,FOOT LOCKER,organization,chase_checking_1234,deposit,expense,Online,wants
+card_payment,-60.74,82782.73,1/13/2024 0:00,Neiman Marcus,shopping,NEIMAN MARCUS,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-45.57,82573.43,1/15/2024 0:00,MAC,shopping,MAC,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+digital_payment,-63.49,82580.39,1/18/2024 0:00,PayPal Purchase,shopping,EBAY,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+digital_payment,-18.36,82562.03,1/19/2024 0:00,PayPal Purchase,shopping,EBAY,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-11.49,81733.54,1/30/2024 0:00,Kohl's,shopping,KOHL'S,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+digital_payment,-5.67,81487.53,2/3/2024 0:00,PayPal Purchase,shopping,EBAY,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-72.31,81605.16,2/3/2024 0:00,J.C. Penney,shopping,J.C. PENNEY,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-46.77,80605.48,2/20/2024 0:00,MAC,shopping,MAC,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+ach,-43.31,84428.55,12/21/2023 0:00,E-Commerce Website Project,software,SMILE SOFTWARE HOUSE,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+card_payment,-103.89,83001.87,1/10/2024 0:00,Spotify,software,SPOTIFY,organization,chase_checking_1234,deposit,expense,Online,wants
+card_payment,-92.49,81745.03,1/28/2024 0:00,Spotify,software,SPOTIFY,organization,chase_checking_1234,deposit,expense,Online,wants
+card_payment,-111.96,81493.2,2/3/2024 0:00,Spotify,software,SPOTIFY,organization,chase_checking_1234,deposit,expense,Online,wants
+ach,-89.21,80968.21,2/16/2024 0:00,E-Commerce Website Project,software,SMILE SOFTWARE HOUSE,organization,chase_checking_1234,deposit,expense,San Francisco,wants
+payment,-53.38,85386.74,11/28/2023 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_1234,deposit,expense,Online,needs
+payment,-105.58,85440.12,11/28/2023 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_1234,deposit,expense,Online,needs
+payment,-66.13,85312.34,12/9/2023 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_1234,deposit,expense,Online,needs
+payment,-33.44,83172.55,1/6/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_1234,deposit,expense,Online,needs
+payment,-85.63,82962.81,1/12/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_1234,deposit,expense,Online,needs
+payment,-120.63,82346.42,1/22/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_1234,deposit,expense,Online,needs
+payment,-110.84,81076.38,2/15/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_1234,deposit,expense,Online,needs
+payment,-118.9,80762.7,2/18/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_1234,deposit,expense,Online,needs
+ach,-42.58,84860.81,12/14/2023 0:00,Monthly Water Bill,utilities,WATER SUPPLY COMPANY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-30.66,84750.12,12/16/2023 0:00,Monthly Water Bill,utilities,WATER SUPPLY COMPANY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-61.8,82843.47,1/13/2024 0:00,Monthly Water Bill,utilities,WATER SUPPLY COMPANY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-20.48,81878.26,1/27/2024 0:00,Monthly Water Bill,utilities,WATER SUPPLY COMPANY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-20.48,81878.26,1/27/2024 0:00,Monthly Water Bill,utilities,WATER SUPPLY COMPANY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+ach,-86.61,80881.6,2/18/2024 0:00,Monthly Water Bill,utilities,WATER SUPPLY COMPANY,organization,chase_checking_1234,deposit,expense,San Francisco,needs
+adjustment,44.56,69134.56,11/27/2023 0:00,Hilton Hotel Miami,accommodation,HILTON HOTELS,organization,chase_checking_5678,deposit,income,Miami,null
+card_payment,-103.17,68670.94,12/3/2023 0:00,Hotel Tonight,accommodation,HOTEL TONIGHT,organization,chase_checking_5678,deposit,expense,Online,wants
+card_payment,-46.25,68333.27,12/12/2023 0:00,Pizza Hut,dining,PIZZA HUT,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-74.64,68061.89,12/18/2023 0:00,Pizza Hut,dining,PIZZA HUT,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-5.39,67438.08,1/2/2024 0:00,Wingstop,dining,WINGSTOP,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-117.84,66793.43,1/10/2024 0:00,Domino's Pizza,dining,DOMINO'S PIZZA,organization,chase_checking_5678,deposit,expense,Online,wants
+card_payment,-106.31,65593.4,1/28/2024 0:00,Starbucks,dining,STARBUCKS,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-55.09,64933.92,2/7/2024 0:00,Papa John's,dining,PAPA JOHN'S,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-103.01,64506.27,2/10/2024 0:00,Panera,dining,PANERA,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-58.14,64330.46,2/17/2024 0:00,Subway,dining,SUBWAY,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-36.27,64294.19,2/19/2024 0:00,Five Guys,dining,FIVE GUYS,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-118.38,65003.84,2/6/2024 0:00,Apple,electronics,APPLE,organization,chase_checking_5678,deposit,expense,Online,wants
+card_payment,-101.59,67655.59,12/24/2023 0:00,GameStop,entertainment,GAMESTOP,organization,chase_checking_5678,deposit,expense,Online,wants
+deposit,70.46,0,2/24/2024 0:00,Cash Deposit,general,MEGA BANK,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+wire,-8.48,68926.83,11/29/2023 0:00,Domestic Wire,general,JAMES ARDEN,personal,chase_checking_5678,deposit,expense,San Francisco,goals
+payment,-105.68,68821.15,11/30/2023 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_5678,deposit,expense,Online,needs
+deposit,46.33,68774.11,12/2/2023 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_5678,deposit,income,San Francisco,null
+payment,-103.19,68373.23,12/7/2023 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_5678,deposit,expense,Online,needs
+deposit,69.47,68557.72,12/7/2023 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_5678,deposit,income,San Francisco,null
+wire,-37.16,67900.85,12/19/2023 0:00,International Wire Transfer,general,JOSE SALAS,personal,chase_checking_5678,deposit,expense,San Francisco,goals
+deposit,50.95,67399.13,12/31/2023 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_5678,deposit,income,San Francisco,null
+check,-6.6,66786.83,1/10/2024 0:00,Check #078,general,MARK SIMMONS,personal,chase_checking_5678,deposit,expense,San Francisco,needs
+payment,-47.65,66688.62,1/12/2024 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_5678,deposit,expense,Online,needs
+fee,-53.79,66116.51,1/18/2024 0:00,Insufficient Funds Fee,general,BANK OF ALL,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+fee,-81.09,65965.41,1/19/2024 0:00,Insufficient Funds Fee,general,BANK OF ALL,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+deposit,8.25,65726.5,1/25/2024 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_5678,deposit,income,San Francisco,null
+check,28.05,65309.16,1/31/2024 0:00,Online Check Deposit,general,BANK OF MANY,organization,chase_checking_5678,deposit,income,San Francisco,null
+fee,-22.05,64609.28,2/10/2024 0:00,Insufficient Funds Fee,general,BANK OF ALL,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+transfer,-32.55,64631.33,2/10/2024 0:00,Recurring Transfer to Savings,general,YOURSELF,personal,chase_checking_5678,deposit,expense,San Francisco,transfer
+payment,-19.83,64486.44,2/11/2024 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_checking_5678,deposit,expense,Online,needs
+deposit,115.06,64424.19,2/15/2024 0:00,Cash Deposit,general,MEGA BANK,organization,chase_checking_5678,deposit,income,San Francisco,null
+transfer,-35.59,64388.6,2/16/2024 0:00,Transfer to Checking,general,YOURSELF,personal,chase_checking_5678,deposit,expense,Online,transfer
+card_payment,-73.13,66963.15,1/9/2024 0:00,Aldi,groceries,ALDI,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+card_payment,-51.88,66911.27,1/10/2024 0:00,Costco,groceries,COSTCO,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+card_payment,-50.56,66736.27,1/11/2024 0:00,Costco,groceries,COSTCO,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+adjustment,19.54,67036.28,1/9/2024 0:00,Refund,home,THE HOME DEPOT,organization,chase_checking_5678,deposit,income,San Francisco,null
+card_payment,-46.95,66294.52,1/16/2024 0:00,Staples,office,STAPLES,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-12.83,68488.25,12/5/2023 0:00,Century Link,phone,CENTURYLINK,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+card_payment,-108.35,67953.54,12/18/2023 0:00,T-Mobile,phone,T-MOBILE,organization,chase_checking_5678,deposit,expense,Online,needs
+bill_payment,-82.75,67572.84,12/27/2023 0:00,AT&T Company Contract,phone,AT&T WIRELESS,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-48.38,67223.86,1/5/2024 0:00,Century Link,phone,CENTURYLINK,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-48.7,66639.92,1/12/2024 0:00,Century Link,phone,CENTURYLINK,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-88.77,65876.64,1/19/2024 0:00,Century Link,phone,CENTURYLINK,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-29.42,65163.26,2/3/2024 0:00,Century Link,phone,CENTURYLINK,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+bill_payment,-124.38,69010.18,11/27/2023 0:00,American Express Platinum Card,service,AMERICAN EXPRESS,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+atm,-74.87,68935.31,11/28/2023 0:00,ATM Withdrawal,service,CARDTRONICS,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-93.37,68727.78,12/1/2023 0:00,Point of Sale - Monthly,service,SQUARE,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-116.83,68501.08,12/3/2023 0:00,Point of Sale - Monthly,service,SQUARE,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+digital_payment,-53.03,68617.91,12/3/2023 0:00,Venmo Payment,service,LOUISE BENTLEY,personal,chase_checking_5678,deposit,expense,Online,needs
+atm,28.74,68379.52,12/10/2023 0:00,ATM Deposit,service,MAGNA BANK,organization,chase_checking_5678,deposit,income,San Francisco,null
+ach,-6.91,68326.36,12/15/2023 0:00,Point of Sale - Monthly,service,SQUARE,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+digital_payment,-63.35,68136.53,12/18/2023 0:00,Venmo Payment,service,LOUISE BENTLEY,personal,chase_checking_5678,deposit,expense,Online,needs
+charge,-90.38,67768.99,12/22/2023 0:00,Interest Charge,service,DISCOVER,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+atm,-11.81,67757.18,12/23/2023 0:00,External ATM Cash,service,ATM WORLDWIDE,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+atm,-98.88,67411.18,12/30/2023 0:00,External ATM Cash,service,ATM WORLDWIDE,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+interest,-63,67348.18,12/31/2023 0:00,Interest Payment,service,AMERICAN EXPRESS,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+atm,44.34,67443.47,1/1/2024 0:00,ATM Deposit,service,MAGNA BANK,organization,chase_checking_5678,deposit,income,San Francisco,null
+withdrawal,-123.47,67272.24,1/4/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+withdrawal,-42.37,67395.71,1/4/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+interest,97.38,67321.24,1/7/2024 0:00,Interest Earned,service,WORLD BANK,organization,chase_checking_5678,deposit,income,San Francisco,null
+withdrawal,-95.26,67110.16,1/8/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+withdrawal,-93.42,67016.74,1/9/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+digital_payment,-23.35,66341.47,1/15/2024 0:00,Venmo Payment,service,LOUISE BENTLEY,personal,chase_checking_5678,deposit,expense,Online,needs
+withdrawal,-51.85,66364.82,1/15/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+withdrawal,-27.31,66267.21,1/17/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+withdrawal,-96.91,66170.3,1/18/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+bill_payment,-14.07,65718.25,1/24/2024 0:00,American Express Platinum Card,service,AMERICAN EXPRESS,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+withdrawal,-102.38,65281.11,1/31/2024 0:00,Cash Withdrawal,service,EASY PAY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+atm,-107.19,65383.49,1/31/2024 0:00,ATM Withdrawal,service,CARDTRONICS,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+bill_payment,-14.46,65294.7,2/1/2024 0:00,Toyota Financial Services,service,TOYOTA,organization,chase_checking_5678,deposit,expense,Online,goals
+charge,-41.04,65122.22,2/3/2024 0:00,Interest Charge,service,DISCOVER,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+bill_payment,-30.04,64865.54,2/8/2024 0:00,American Express Platinum Card,service,AMERICAN EXPRESS,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+interest,38.51,64895.58,2/8/2024 0:00,Interest Earned,service,WORLD BANK,organization,chase_checking_5678,deposit,income,San Francisco,null
+charge,-90.83,64663.88,2/9/2024 0:00,Service Charge,service,BANK OF EURASIA,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-110.83,64754.71,2/9/2024 0:00,Point of Sale - Monthly,service,SQUARE,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-76.22,64410.22,2/11/2024 0:00,Point of Sale - Monthly,service,SQUARE,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+atm,92.07,64502.29,2/11/2024 0:00,ATM Deposit,service,MAGNA BANK,organization,chase_checking_5678,deposit,income,San Francisco,null
+bill_payment,-26.57,64371.15,2/14/2024 0:00,American Express Platinum Card,service,AMERICAN EXPRESS,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+interest,-25.73,64268.46,2/20/2024 0:00,Interest Payment,service,AMERICAN EXPRESS,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+charge,-112.46,64122.1,2/23/2024 0:00,Interest Charge,service,DISCOVER,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+card_payment,-81.3,68476.42,12/7/2023 0:00,Sephora,shopping,SEPHORA,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+digital_payment,-115.82,67205.42,1/8/2024 0:00,PayPal Purchase,shopping,EBAY,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-43.88,66596.04,1/13/2024 0:00,TJ Maxx,shopping,TJ MAXX,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-70.01,66046.5,1/18/2024 0:00,Nordstrom,shopping,NORDSTROM,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+digital_payment,-55.14,65775.54,1/21/2024 0:00,PayPal Purchase,shopping,EBAY,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-102.02,65192.68,2/2/2024 0:00,Neiman Marcus,shopping,NEIMAN MARCUS,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-76.85,64857.07,2/8/2024 0:00,Ross,shopping,ROSS,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+digital_payment,-62.02,64309.13,2/15/2024 0:00,PayPal Purchase,shopping,EBAY,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+ach,-79.91,0,2/24/2024 0:00,E-Commerce Website Project,software,SMILE SOFTWARE HOUSE,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+ach,-15.53,67938.01,12/19/2023 0:00,E-Commerce Website Project,software,SMILE SOFTWARE HOUSE,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-52.49,67510.06,12/28/2023 0:00,Spotify,software,SPOTIFY,organization,chase_checking_5678,deposit,expense,Online,wants
+ach,-10.29,67562.55,12/28/2023 0:00,E-Commerce Website Project,software,SMILE SOFTWARE HOUSE,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+card_payment,-30.51,64471.78,2/12/2024 0:00,Spotify,software,SPOTIFY,organization,chase_checking_5678,deposit,expense,Online,wants
+ach,-74.06,64397.72,2/13/2024 0:00,E-Commerce Website Project,software,SMILE SOFTWARE HOUSE,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+ach,-22.33,64234.56,2/21/2024 0:00,E-Commerce Website Project,software,SMILE SOFTWARE HOUSE,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+ach,-11.57,64256.89,2/21/2024 0:00,E-Commerce Website Project,software,SMILE SOFTWARE HOUSE,organization,chase_checking_5678,deposit,expense,San Francisco,wants
+payment,-22.45,68350.78,12/9/2023 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_5678,deposit,expense,Online,needs
+payment,-41.48,67859.37,12/21/2023 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_5678,deposit,expense,Online,needs
+payment,-97.8,66416.67,1/14/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_5678,deposit,expense,Online,needs
+card_payment,-81.57,66514.47,1/14/2024 0:00,Uber,transportation,UBER,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+payment,-43.22,65732.32,1/23/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_5678,deposit,expense,Online,needs
+payment,-102.72,65490.68,1/30/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_5678,deposit,expense,Online,needs
+payment,-14.83,64989.01,2/7/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_checking_5678,deposit,expense,Online,needs
+ach,-21.28,0,2/24/2024 0:00,Monthly Water Bill,utilities,WATER SUPPLY COMPANY,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+ach,-101.05,68199.88,12/17/2023 0:00,Monthly Water Bill,utilities,WATER SUPPLY COMPANY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-25.43,68300.93,12/17/2023 0:00,Monthly Water Bill,utilities,WATER SUPPLY COMPANY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+ach,-45.96,65830.68,1/20/2024 0:00,Monthly Water Bill,utilities,WATER SUPPLY COMPANY,organization,chase_checking_5678,deposit,expense,San Francisco,needs
+card_payment,48.86,0,1/2/2024 0:00,Hotel Tonight,accommodation,HOTEL TONIGHT,organization,chase_sapphire_reserve_0077,credit,expense,Online,wants
+credit,-39.21,0,2/7/2024 0:00,Dispute Credit,accommodation,EXPEDIA,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+adjustment,-87.62,0,2/16/2024 0:00,Hilton Hotel Miami,accommodation,HILTON HOTELS,organization,chase_sapphire_reserve_0077,credit,income,Miami,null
+card_payment,31.48,0,11/28/2023 0:00,Starbucks,dining,STARBUCKS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,122.55,0,11/29/2023 0:00,Jack In The Box,dining,JACK IN THE BOX,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,70.81,0,12/3/2023 0:00,Misson Ceviche,dining,MISSON CEVICHE,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,53.93,0,12/4/2023 0:00,KFC,dining,KFC,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,89.07,0,12/8/2023 0:00,Domino's Pizza,dining,DOMINO'S PIZZA,organization,chase_sapphire_reserve_0077,credit,expense,Online,wants
+card_payment,96.77,0,12/15/2023 0:00,Starbucks,dining,STARBUCKS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,84.19,0,12/22/2023 0:00,Chick-Fil-A,dining,CHICK-FIL-A,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,52.65,0,12/22/2023 0:00,KFC,dining,KFC,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,64.32,0,12/26/2023 0:00,Shake Shack,dining,SHAKE SHACK,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,35.24,0,12/30/2023 0:00,Starbucks,dining,STARBUCKS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,59.4,0,12/31/2023 0:00,Dunkin' Donuts,dining,DUNKIN' DONUTS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,63.59,0,12/31/2023 0:00,Wendy's,dining,WENDY'S,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,39.09,0,1/7/2024 0:00,Panera,dining,PANERA,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,50.75,0,1/7/2024 0:00,Shake Shack,dining,SHAKE SHACK,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,11.01,0,1/11/2024 0:00,Wingstop,dining,WINGSTOP,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,113.45,0,1/14/2024 0:00,Panera,dining,PANERA,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,54.42,0,1/18/2024 0:00,Panera,dining,PANERA,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,74.06,0,1/19/2024 0:00,Jack In The Box,dining,JACK IN THE BOX,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,25.73,0,1/27/2024 0:00,Wingstop,dining,WINGSTOP,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,64.84,0,1/30/2024 0:00,KFC,dining,KFC,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,57.97,0,1/31/2024 0:00,Shake Shack,dining,SHAKE SHACK,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,35.15,0,2/2/2024 0:00,Popeye's,dining,POPEYE'S,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,102.32,0,2/6/2024 0:00,Panera,dining,PANERA,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,108.3,0,2/6/2024 0:00,Popeye's,dining,POPEYE'S,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,22.3,0,2/8/2024 0:00,Starbucks,dining,STARBUCKS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,29.51,0,2/8/2024 0:00,Rooster & Rice,dining,ROOSTER & RICE,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,57.58,0,2/10/2024 0:00,Pizza Hut,dining,PIZZA HUT,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,118.71,0,2/16/2024 0:00,Pizza Hut,dining,PIZZA HUT,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,57.53,0,2/18/2024 0:00,Popeye's,dining,POPEYE'S,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,10.01,0,2/23/2024 0:00,Papa John's,dining,PAPA JOHN'S,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,14.87,0,12/2/2023 0:00,Best Buy,electronics,BEST BUY,organization,chase_sapphire_reserve_0077,credit,expense,Online,wants
+card_payment,56.37,0,1/24/2024 0:00,Best Buy,electronics,BEST BUY,organization,chase_sapphire_reserve_0077,credit,expense,Online,wants
+credit,-51.08,0,12/1/2023 0:00,Dispute Credit,entertainment,HULU,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+credit,-15.95,0,12/28/2023 0:00,Dispute Credit,entertainment,HULU,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+credit,-14.05,0,1/4/2024 0:00,Dispute Credit,entertainment,HULU,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+credit,-121.38,0,1/19/2024 0:00,Dispute Credit,entertainment,HULU,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+credit,-37.54,0,1/23/2024 0:00,Dispute Credit,entertainment,HULU,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+card_payment,66.08,0,12/21/2023 0:00,Exxon Mobil,fuel,EXXON MOBIL,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,61.92,0,12/25/2023 0:00,Exxon Mobil,fuel,EXXON MOBIL,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,112.23,0,1/5/2024 0:00,Shell,fuel,SHELL,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,40.26,0,1/26/2024 0:00,Shell,fuel,SHELL,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+fee,62.02,0,11/30/2023 0:00,International Transaction Fee,general,BIG BANK,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+transfer,33.75,0,12/7/2023 0:00,Recurring Transfer to Savings,general,YOURSELF,personal,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+payment,83.67,0,12/10/2023 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_sapphire_reserve_0077,credit,expense,Online,needs
+check,-115.05,0,12/13/2023 0:00,Online Check Deposit,general,BANK OF MANY,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+fee,74.38,0,12/13/2023 0:00,Insufficient Funds Fee,general,BANK OF ALL,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+payment,56.9,0,12/29/2023 0:00,Zelle Payment,general,SAM BLOCK,personal,chase_sapphire_reserve_0077,credit,expense,Online,needs
+check,7.68,0,1/6/2024 0:00,Check #078,general,MARK SIMMONS,personal,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+transfer,50.44,0,1/28/2024 0:00,Recurring Transfer to Savings,general,YOURSELF,personal,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+fee,57.91,0,2/15/2024 0:00,International Transaction Fee,general,BIG BANK,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,21.42,0,12/12/2023 0:00,Aldi,groceries,ALDI,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+adjustment,-53.15,0,12/13/2023 0:00,Purchase Return,groceries,WALMART,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+adjustment,-77.69,0,12/20/2023 0:00,Purchase Return,groceries,WALMART,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+card_payment,7.83,0,12/23/2023 0:00,Costco,groceries,COSTCO,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,105.91,0,12/24/2023 0:00,Walmart,groceries,WALMART,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,111.58,0,12/29/2023 0:00,H.E. Butt,groceries,H.E. BUTT,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,68.6,0,1/3/2024 0:00,Kroger,groceries,KROGER,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,23.59,0,1/9/2024 0:00,Kroger,groceries,KROGER,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,22.5,0,1/14/2024 0:00,Aldi,groceries,ALDI,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+adjustment,-63.97,0,1/19/2024 0:00,Purchase Return,groceries,WALMART,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+card_payment,60.57,0,2/9/2024 0:00,H.E. Butt,groceries,H.E. BUTT,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,79.26,0,2/9/2024 0:00,Dollar General,groceries,DOLLAR GENERAL,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,29.7,0,2/18/2024 0:00,Dollar General,groceries,DOLLAR GENERAL,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+adjustment,-22.04,0,2/24/2024 0:00,Purchase Return,groceries,WALMART,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+card_payment,16.46,0,1/13/2024 0:00,CVS,health,CVS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,41.57,0,1/22/2024 0:00,CVS,health,CVS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,41.38,0,2/9/2024 0:00,Walgreens,health,WALGREENS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,95.22,0,2/16/2024 0:00,Walgreens,health,WALGREENS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,122.64,0,1/2/2024 0:00,Lowe's,home,LOWE'S,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,21.08,0,1/17/2024 0:00,The Home Depot,home,THE HOME DEPOT,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,94.2,0,11/29/2023 0:00,Office Depot,office,OFFICE DEPOT,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,120.88,0,1/20/2024 0:00,Office Depot,office,OFFICE DEPOT,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,52.52,0,1/23/2024 0:00,Staples,office,STAPLES,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,76.18,0,12/18/2023 0:00,Verizon Wireless,phone,VERIZON WIRELESS,organization,chase_sapphire_reserve_0077,credit,expense,Online,needs
+card_payment,112.33,0,1/1/2024 0:00,AT&T Wireless,phone,AT&T WIRELESS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+card_payment,80.29,0,1/7/2024 0:00,Verizon Wireless,phone,VERIZON WIRELESS,organization,chase_sapphire_reserve_0077,credit,expense,Online,needs
+card_payment,33.26,0,1/16/2024 0:00,Sprint PCS,phone,SPRINT PCS,organization,chase_sapphire_reserve_0077,credit,expense,Online,needs
+card_payment,72.65,0,2/12/2024 0:00,Verizon Wireless,phone,VERIZON WIRELESS,organization,chase_sapphire_reserve_0077,credit,expense,Online,needs
+atm,45.98,0,11/30/2023 0:00,External ATM Cash,service,ATM WORLDWIDE,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+atm,39.15,0,12/6/2023 0:00,ATM Withdrawal,service,CARDTRONICS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+atm,-65.47,0,1/12/2024 0:00,ATM Deposit,service,MAGNA BANK,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+atm,63.98,0,1/23/2024 0:00,External ATM Cash,service,ATM WORLDWIDE,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+atm,-80.11,0,2/14/2024 0:00,ATM Deposit,service,MAGNA BANK,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+atm,-54.39,0,2/21/2024 0:00,ATM Deposit,service,MAGNA BANK,organization,chase_sapphire_reserve_0077,credit,income,San Francisco,null
+card_payment,65.41,0,11/27/2023 0:00,Neiman Marcus,shopping,NEIMAN MARCUS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,118.24,0,12/9/2023 0:00,Macy's,shopping,MACY'S,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,30.21,0,12/16/2023 0:00,Neiman Marcus,shopping,NEIMAN MARCUS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,71.16,0,12/24/2023 0:00,Foot Locker,shopping,FOOT LOCKER,organization,chase_sapphire_reserve_0077,credit,expense,Online,wants
+card_payment,16.5,0,12/25/2023 0:00,J.C. Penney,shopping,J.C. PENNEY,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,73.05,0,12/27/2023 0:00,Ross,shopping,ROSS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,66.45,0,12/27/2023 0:00,Rite Aid,shopping,RITE AID,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,94.61,0,1/4/2024 0:00,Dick's Sporting Goods,shopping,DICK'S SPORTING GOODS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,13.6,0,1/6/2024 0:00,Ross,shopping,ROSS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,58.72,0,1/6/2024 0:00,Sears,shopping,SEARS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,69.79,0,1/8/2024 0:00,Neiman Marcus,shopping,NEIMAN MARCUS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,50.75,0,1/9/2024 0:00,Williams-Sonoma,shopping,WILLIAMS-SONOMA,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,11.2,0,1/15/2024 0:00,Neiman Marcus,shopping,NEIMAN MARCUS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,65.83,0,1/18/2024 0:00,Amazon,shopping,AMAZON,organization,chase_sapphire_reserve_0077,credit,expense,Online,wants
+card_payment,81.29,0,1/21/2024 0:00,IKEA,shopping,IKEA,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,75.15,0,1/29/2024 0:00,Gap,shopping,GAP,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,106.34,0,1/30/2024 0:00,"Bed, Bath & Beyond",shopping,"BED, BATH & BEYOND",organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,94.94,0,2/3/2024 0:00,J.C. Penney,shopping,J.C. PENNEY,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,106.85,0,2/4/2024 0:00,Nordstrom,shopping,NORDSTROM,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,52.43,0,2/5/2024 0:00,Lids,shopping,LIDS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,9.55,0,2/13/2024 0:00,Ross,shopping,ROSS,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,124.47,0,2/17/2024 0:00,IKEA,shopping,IKEA,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,54.35,0,2/24/2024 0:00,J.C. Penney,shopping,J.C. PENNEY,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,47.93,0,12/17/2023 0:00,Spotify,software,SPOTIFY,organization,chase_sapphire_reserve_0077,credit,expense,Online,wants
+card_payment,91.34,0,1/2/2024 0:00,iTunes,software,ITUNES,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,wants
+card_payment,15.98,0,2/13/2024 0:00,Spotify,software,SPOTIFY,organization,chase_sapphire_reserve_0077,credit,expense,Online,wants
+card_payment,59.96,0,12/1/2023 0:00,Lyft,transportation,LYFT,organization,chase_sapphire_reserve_0077,credit,expense,San Francisco,needs
+payment,20.24,0,12/3/2023 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_sapphire_reserve_0077,credit,expense,Online,needs
+payment,92.3,0,12/24/2023 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_sapphire_reserve_0077,credit,expense,Online,needs
+payment,47.28,0,1/21/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_sapphire_reserve_0077,credit,expense,Online,needs
+payment,11.62,0,2/18/2024 0:00,Zelle Payment,transportation,AB LOGISTICS,organization,chase_sapphire_reserve_0077,credit,expense,Online,needs
